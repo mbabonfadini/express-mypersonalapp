@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/",
+        "target": "ES2022",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "experimentalDecorators": true,
+        "module": "CommonJS",
+        "esModuleInterop": true,
+    },
+    "include": ["./src/*","./swagger/*" ,"index.ts"]
+}
